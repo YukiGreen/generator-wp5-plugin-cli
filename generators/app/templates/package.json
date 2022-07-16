@@ -190,17 +190,12 @@
     "webpack-dev-server": "^4.0.0"
   },
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">=16.15.1",
+    "npm": ">= 8.11.0"
   },
   "keywords": [
     "vue",
-    "vue-router",
-    "babel-core",
-    "babel-eslint",
-    "jest",
     "less",
-    "lodash",
     "webpack",
     "element-ui"
   ]
