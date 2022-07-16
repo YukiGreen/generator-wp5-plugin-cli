@@ -50,7 +50,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'zhCN',
         message: 'Chinese name of Engineering:',
-        default: 'edsp-plugin脚手架工程'
+        default: 'plugin脚手架工程'
       },
       {
         type: 'input',
@@ -65,12 +65,12 @@ module.exports = class extends Generator {
         choices: [
           {
             name:
-              'Intranet mirroring(http://nexus.yfb.sunline.cn:8099/nexus3/repository/npm-sunline/)',
+              'Intranet mirroring(https://registry.npmjs.org/)',
             value: 'i'
           },
           {
             name:
-              'External network mirroring(http://e-proxy.yfb.sunline.cn/nexus3/repository/npm-sunline/)',
+              'External network mirroring(https://registry.npm.taobao.org/)',
             value: 'o'
           }
         ]
@@ -310,7 +310,7 @@ Success! Created ${this.customParameters.name} at ${path.basename(process.cwd())
 
 Inside that directory, you can run several commands:
 * cd ${this.customParameters.name} && yarn :download dependency.
-* yarn dev:demo: Start the development server.
+* yarn dev: Start the development server.
 * yarn deploy: Deploy the project.
 `);
   }
