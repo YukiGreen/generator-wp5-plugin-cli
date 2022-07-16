@@ -34,7 +34,7 @@
 ```
 ## 项目内相关命令说明
 ```bash
-# 1. 初始化安装源
+# 1. 初始化安装源（o为https://registry.npm.taobao.org/， i为https://registry.npmjs.org/， 不执行该命令默认为i）
 yarn source:init
 
 # 2. 安装项目依赖
