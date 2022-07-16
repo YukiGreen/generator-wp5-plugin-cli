@@ -1,0 +1,23 @@
+{
+  "noLogin代表的含义": "false表示需要登录，true表示没有登录",
+  "noLogin": false,
+  "version": "1.0.0",
+  "productCode": "EDSP",
+  "i18nName": {
+    "zh_CN": "SunEDSP",
+    "en_US": "SunEDSP"
+  },
+  "isProd代表的含义": "false表示开发环境，true表示生产环境",
+  "isProd": false,
+  "isShell代表的含义": "false表示PTE登录，true表示壳子登录",
+  "isShell": false,
+  "timeout代表的含义": "前端请求后端超时时间",
+  "timeout": 15000,
+  "styleDefinition": {
+    "//": "buttonDefaultSize控制",
+    "buttonDefaultSize": "mini"
+  },
+  "productUrl": "/adm",
+  "desKey": "1111111111111111",
+  "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoei0gUGI838qniTG2m32u5FFt3iKu8NY4BukQ7/7QeknlibQbmRxc8Rw7j+PsqT50TDL5wio5xqTXDqp+0bkvmGdgW7erTR4A6LuwlPxbtWs2xOEro6Cx1Qo5g5VrNpV1ZswJiuAkuncDPfrgoizIbE9nW7RtxprXO6TarIRywQIDAQAB"
+}

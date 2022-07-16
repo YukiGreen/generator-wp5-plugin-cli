@@ -1,0 +1,1 @@
+{"code":"200","msg":"OK","data":{"namespace":"dsd","systemName":"sdsd","gcmProperties":{"units":[{"unitId":"ssd","status":1,"type":"B","shardIds":"s$->{1..2}","shardSumNum":2,"shardIdList":null,"metadata":{}},{"unitId":"dsdssd","status":1,"type":"R","shardIds":"s$->{1..3}","shardSumNum":3,"shardIdList":null,"metadata":{}}]}}}

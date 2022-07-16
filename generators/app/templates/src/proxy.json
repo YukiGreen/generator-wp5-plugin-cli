@@ -1,0 +1,23 @@
+[
+  {
+    "proxyUrl": "/gateway",
+    "targetApi": "http://10.22.0.84:31225/gateway",
+    "protocol": "http://",
+    "isModule": false,
+    "notVersion": true,
+    "description": {
+      "zh_CN": "EDSP-PORTAL后端代理",
+      "en_US": "EDSP-PORTAL back-end proxy"
+    }
+  },
+  {
+    "proxyUrl": "/loader",
+    "targetApi": "http://10.22.0.230:8080",
+    "protocol": "http://",
+    "isModule": false,
+    "description": {
+      "zh_CN": "前端加载器后端代理",
+      "en_US": "Front-end loader back-end proxy"
+    }
+  }
+]

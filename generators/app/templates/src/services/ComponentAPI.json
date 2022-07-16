@@ -1,0 +1,21 @@
+{
+  "EDSP": "/edsp",
+  "DOMAIN_PROXY": "/proxy/domains",
+  "SERVICE_RESOURCE_PROXY": "/proxy/service-resource",
+  "DEFAULTHEADERS": {},
+  "localServerApi": {
+    "helloModule": "/mock/helloModule/helloList.json"
+  },
+  "CommonApi": {
+    "languagePackage": "",
+    "dict": {
+      "valueField": "",
+      "labelField": "",
+      "doRequest": {
+        "url": "",
+        "method": "",
+        "params": {}
+      }
+    }
+  }
+}

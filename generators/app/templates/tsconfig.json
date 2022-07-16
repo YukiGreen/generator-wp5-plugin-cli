@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+//    "target": "esnext",
+//    "module": "esnext",
+    "strict": false,
+    "jsx": "preserve",
+    "module": "es2015",
+    "target": "es5",
+    // 定义this
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": false,
+    "baseUrl": ".",
+    "outDir": "debug",
+    // 在表达式和声明上有隐含的any类型时报错
+    "noImplicitAny": false,
+    "jsxFactory": "h",
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "pretty": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "types": [
+      "node",
+      "vue",
+      "webpack-env"
+    ],
+    "paths": {
+      "vue$": [
+        "node_modules/vue/dist/vue.esm.js"
+      ],
+      "*": [
+        "node_modules/*",
+        "packages/types/*"
+      ],
+      "plugin/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "packages/utils/loaderJson.js",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
